@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0042)file:///Users/i0u8b/Desktop/portfolio.html -->
+<!-- saved from url=(0039)file:///Users/i0u8b/Desktop/index.html# -->
 <html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>المونتير | مصمم إبداعي</title>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Tajawal:wght@300;400;700;800&display=swap" rel="stylesheet">
+<link href="./الاخيررر_files/css2" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -444,24 +444,104 @@
 </div>
 
 <!-- navigation -->
-<nav>
-  <div class="nav-brand">
-    <div class="nav-logo">
+
+<!-- ضع هذا في <head> -->
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.xnav{display:flex;align-items:center;justify-content:space-between;
+  padding:0 32px;height:64px;position:sticky;top:0;z-index:999;
+  background:rgba(10,10,10,0.85);
+  border-bottom:0.5px solid rgba(220,38,38,0.2);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.xnav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.xnav-logo{width:28px;height:22px}
+.xnav-logo svg{width:100%;height:100%}
+.xnav-name{font-size:17px;font-weight:600;color:#fff}
+.xnav-name span{color:#dc2626}
+.xnav-links{display:flex;gap:4px;list-style:none}
+.xnav-links a{font-size:14px;color:rgba(255,255,255,0.65);
+  text-decoration:none;padding:6px 14px;border-radius:8px;transition:.2s}
+.xnav-links a:hover,.xnav-links a.active{color:#fff;background:rgba(220,38,38,0.12)}
+.xnav-cta{padding:7px 18px;border-radius:8px;
+  background:rgba(220,38,38,0.85);color:#fff;font-size:13px;
+  font-weight:500;text-decoration:none;border:0.5px solid rgba(255,100,100,0.3)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+.hamburger span{width:22px;height:1.5px;background:rgba(255,255,255,0.8);border-radius:2px;display:block;transition:.3s}
+.mobile-menu{display:none;flex-direction:column;
+  background:rgba(10,10,10,0.97);
+  border-bottom:0.5px solid rgba(220,38,38,0.15)}
+.mobile-menu a{padding:14px 24px;color:rgba(255,255,255,0.75);
+  text-decoration:none;border-bottom:0.5px solid rgba(255,255,255,0.05);font-size:15px}
+.mobile-menu a.cta{color:#f87171}
+@media(max-width:768px){
+  .xnav-links,.xnav-cta{display:none}
+  .hamburger{display:flex}
+  .mobile-menu.open{display:flex}}
+</style>
+
+<!-- ضع هذا بعد <body> مباشرة -->
+<!-- ضع هذا في <head> -->
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.xnav{display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:64px;position:sticky;top:0;z-index:999;background:rgba(10,10,10,0.85);border-bottom:0.5px solid rgba(220,38,38,0.2);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.xnav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.xnav-logo{width:28px;height:22px}.xnav-logo svg{width:100%;height:100%}
+.xnav-name{font-size:17px;font-weight:600;color:#fff}.xnav-name span{color:#dc2626}
+.xnav-links{display:flex;gap:4px;list-style:none}
+.xnav-links a{font-size:14px;color:rgba(255,255,255,0.65);text-decoration:none;padding:6px 14px;border-radius:8px;transition:.2s}
+.xnav-links a:hover,.xnav-links a.active{color:#fff;background:rgba(220,38,38,0.12)}
+.xnav-cta{padding:7px 18px;border-radius:8px;background:rgba(220,38,38,0.85);color:#fff;font-size:13px;font-weight:500;text-decoration:none;border:0.5px solid rgba(255,100,100,0.3)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+.hamburger span{width:22px;height:1.5px;background:rgba(255,255,255,0.8);border-radius:2px;display:block;transition:.3s}
+.mobile-menu{display:none;flex-direction:column;background:rgba(10,10,10,0.97);border-bottom:0.5px solid rgba(220,38,38,0.15)}
+.mobile-menu a{padding:14px 24px;color:rgba(255,255,255,0.75);text-decoration:none;border-bottom:0.5px solid rgba(255,255,255,0.05);font-size:15px}
+.mobile-menu a.cta{color:#f87171}
+@media(max-width:768px){.xnav-links,.xnav-cta{display:none}.hamburger{display:flex}.mobile-menu.open{display:flex}}
+</style>
+
+<!-- ضع هذا بعد <body> مباشرة -->
+<nav class="xnav">
+  <a class="xnav-brand" href="file:///Users/i0u8b/Desktop/index.html#">
+    <div class="xnav-logo">
       <svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
-        <rect x="2" y="2" width="24" height="76" rx="9" ry="9" fill="white"/>
-        <rect x="38" y="18" width="24" height="60" rx="9" ry="9" fill="white"/>
-        <rect x="74" y="2" width="24" height="76" rx="9" ry="9" fill="white"/>
+        <rect x="2" y="2" width="24" height="76" rx="9" fill="white"></rect>
+        <rect x="38" y="18" width="24" height="60" rx="9" fill="white"></rect>
+        <rect x="74" y="2" width="24" height="76" rx="9" fill="white"></rect>
       </svg>
     </div>
-    <span contenteditable="false"> محمد</span>سرمد
-  </div>
-  <ul class="nav-links">
-    <li><a href="#about">عني</a></li>
-    <li><a href="#skills">المهارات</a></li>
-    <li><a href="#portfolio">أعمالي</a></li>
-    <li><a href="#contact">تواصل</a></li>
+    <span class="xnav-name">محمد <span>سرمد</span></span>
+  </a>
+  <ul class="xnav-links">
+    <li><a href="file:///Users/i0u8b/Desktop/index.html#about">عني</a></li>
+    <li><a href="file:///Users/i0u8b/Desktop/index.html#skills">المهارات</a></li>
+    <li><a href="file:///Users/i0u8b/Desktop/index.html#portfolio">أعمالي</a></li>
+    <li><a href="file:///Users/i0u8b/Desktop/index.html#contact">تواصل</a></li>
   </ul>
+  <a href="file:///Users/i0u8b/Desktop/index.html#contact" class="xnav-cta">تواصل معي</a>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="القائمة">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="file:///Users/i0u8b/Desktop/index.html#about">عني</a>
+  <a href="file:///Users/i0u8b/Desktop/index.html#skills">المهارات</a>
+  <a href="file:///Users/i0u8b/Desktop/index.html#portfolio">أعمالي</a>
+  <a href="file:///Users/i0u8b/Desktop/index.html#contact" class="cta">تواصل معي</a>
+</div>
+<script>
+function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open')}
+</script>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="file:///Users/i0u8b/Desktop/index.html#about">عني</a>
+  <a href="file:///Users/i0u8b/Desktop/index.html#skills">المهارات</a>
+  <a href="file:///Users/i0u8b/Desktop/index.html#portfolio">أعمالي</a>
+  <a href="file:///Users/i0u8b/Desktop/index.html#contact" class="cta">تواصل معي</a>
+</div>
+<script>
+function toggleMenu(){
+  document.getElementById('mobileMenu').classList.toggle('open')}
+</script>
+
 
 <!-- hero -->
 <div class="hero">
@@ -469,9 +549,9 @@
     <div class="hero-logo-wrap">
       <div class="hero-logo-bg">
         <svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2" y="2" width="24" height="76" rx="9" ry="9" fill="white"/>
-          <rect x="38" y="18" width="24" height="60" rx="9" ry="9" fill="white"/>
-          <rect x="74" y="2" width="24" height="76" rx="9" ry="9" fill="white"/>
+          <rect x="2" y="2" width="24" height="76" rx="9" ry="9" fill="white"></rect>
+          <rect x="38" y="18" width="24" height="60" rx="9" ry="9" fill="white"></rect>
+          <rect x="74" y="2" width="24" height="76" rx="9" ry="9" fill="white"></rect>
         </svg>
       </div>
     </div>
@@ -549,77 +629,111 @@
     <p class="section-label">نماذج العمل</p>
     <h2 class="section-title">أعمالي الإبداعية</h2>
     <div class="divider"></div>
-    <div class="portfolio-grid" id="portfolio-grid">
-
-      <!-- card 1 -->
-      <div class="glass-card video-card" id="vc-1">
-        <div class="video-wrapper">
-          <div id="embed-1" style="position:absolute;inset:0;background:#111;display:flex;align-items:center;justify-content:center;cursor:pointer" onclick="playVideo(&#39;1&#39;)"><iframe src="./صفحتي ١_files/xkzaltVAaDo.html" allowfullscreen="" style="position:absolute;inset:0;width:100%;height:100%;border:none;border-radius:16px 16px 0 0"></iframe></div>
-        </div>
-        <div class="video-info">
-          <div class="video-title" contenteditable="false">كلاسك للديكور</div>
-          <div class="video-desc" contenteditable="false">اعلان عن تعريف شركة كلاسك للديكور</div>
-          <input class="video-url-input" type="text" placeholder="أدخل رابط YouTube أو Vimeo..." id="url-1" oninput="updateEmbed(&#39;1&#39;,this.value)" value="">
-          <input class="insta-url-input" type="text" placeholder="🔗 رابط إنستاغرام (اختياري)..." id="insta-1" oninput="updateInstaLink(&#39;1&#39;,this.value)" value="">
-          <a class="insta-link-btn" id="insta-btn-1" href="#" target="_blank">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-            عرض على الإنستاغرام
-          </a>
-        </div>
-      </div>
-
-      <!-- card 2 -->
-      <div class="glass-card video-card" id="vc-2">
-        <div class="video-wrapper">
-          <div id="embed-2" style="position:absolute;inset:0;background:#111;display:flex;align-items:center;justify-content:center;cursor:pointer" onclick="playVideo(&#39;2&#39;)">
-            <svg width="52" height="52" viewBox="0 0 52 52" style="opacity:.8">
-              <circle cx="26" cy="26" r="26" fill="#e8192c" opacity=".25"></circle>
-              <circle cx="26" cy="26" r="20" fill="#e8192c" opacity=".4"></circle>
-              <polygon points="21,18 36,26 21,34" fill="white"></polygon>
-            </svg>
-          </div>
-        </div>
-        <div class="video-info">
-          <div class="video-title" contenteditable="false">سكاتباك دوج تشالنجر</div>
-          <div class="video-desc" contenteditable="false">فديو ل سيارة دوج تشالنجر</div>
-          <input class="video-url-input" type="text" placeholder="أدخل رابط YouTube أو Vimeo..." id="url-2" oninput="updateEmbed(&#39;2&#39;,this.value)" value="">
-          <input class="insta-url-input" type="text" placeholder="🔗 رابط إنستاغرام (اختياري)..." id="insta-2" oninput="updateInstaLink(&#39;2&#39;,this.value)" value="">
-          <a class="insta-link-btn" id="insta-btn-2" href="#" target="_blank">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-            عرض على الإنستاغرام
-          </a>
-        </div>
-      </div>
-
-      <!-- card 3 -->
-      <div class="glass-card video-card" id="vc-3">
-        <div class="video-wrapper">
-          <div id="embed-3" style="position:absolute;inset:0;background:#111;display:flex;align-items:center;justify-content:center;cursor:pointer" onclick="playVideo(&#39;3&#39;)">
-            <svg width="52" height="52" viewBox="0 0 52 52" style="opacity:.8">
-              <circle cx="26" cy="26" r="26" fill="#e8192c" opacity=".25"></circle>
-              <circle cx="26" cy="26" r="20" fill="#e8192c" opacity=".4"></circle>
-              <polygon points="21,18 36,26 21,34" fill="white"></polygon>
-            </svg>
-          </div>
-        </div>
-        <div class="video-info">
-          <div class="video-title" contenteditable="false">وثائقي قصير — بغداد الليل</div>
-          <div class="video-desc" contenteditable="false">تصوير ومونتاج وثائقي قصير عن ليالي بغداد</div>
-          <input class="video-url-input" type="text" placeholder="أدخل رابط YouTube أو Vimeo..." id="url-3" oninput="updateEmbed(&#39;3&#39;,this.value)" value="">
-          <input class="insta-url-input" type="text" placeholder="🔗 رابط إنستاغرام (اختياري)..." id="insta-3" oninput="updateInstaLink(&#39;3&#39;,this.value)" value="">
-          <a class="insta-link-btn" id="insta-btn-3" href="#" target="_blank">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-            عرض على الإنستاغرام
-          </a>
-        </div>
-      </div>
-
-      <!-- add video button -->
-      <button class="add-video-btn" onclick="addVideoCard()">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
-        أضف فيديو جديد
-      </button>
+    <style>
+body{background:#0d0d0d;margin:0}
+.portfolio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;padding:2rem;font-family:sans-serif}
+.video-card{background:rgba(255,255,255,0.04);border:0.5px solid rgba(255,255,255,0.1);border-radius:16px;overflow:hidden;transition:transform .25s,border-color .25s,background .25s;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.video-card:hover{transform:translateY(-4px);border-color:rgba(220,38,38,0.5);background:rgba(220,38,38,0.06)}
+.thumb{aspect-ratio:16/9;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;cursor:pointer;position:relative;overflow:hidden}
+.glow{position:absolute;width:80px;height:80px;border-radius:50%;background:rgba(220,38,38,0.2);filter:blur(20px);top:50%;left:50%;transform:translate(-50%,-50%)}
+.num{position:absolute;top:8px;right:10px;font-size:10px;color:rgba(255,255,255,0.3)}
+.play-icon{width:42px;height:42px;border-radius:50%;background:rgba(220,38,38,0.85);color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px;padding-left:3px;position:relative;border:0.5px solid rgba(255,100,100,0.4)}
+.vtitle{padding:10px 14px 7px;font-size:13px;font-weight:500;color:rgba(255,255,255,0.9)}
+.watch-btn{display:block;margin:0 12px 12px;padding:8px;text-align:center;background:rgba(220,38,38,0.15);color:#f87171;border-radius:10px;text-decoration:none;font-size:12px;font-weight:500;border:0.5px solid rgba(220,38,38,0.25);transition:background .15s}
+.watch-btn:hover{background:rgba(220,38,38,0.28)}
+</style>
+<div class="portfolio-grid">
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;https://www.instagram.com/p/DVEkQNijXk4/&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">1</span>
+      <div class="play-icon">▶</div>
     </div>
+    <p class="vtitle">كلاسك للديكور</p>
+    <a href="https://www.instagram.com/p/DVEkQNijXk4/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">2</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">جبل بلاست</p>
+    <a href="https://www.instagram.com/reel/DNn5_3jsvNS/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">3</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">بكارچي</p>
+    <a href="https://www.instagram.com/p/DXKHHRnjLRm/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">4</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">بستون</p>
+    <a href="https://www.instagram.com/p/DYawlYCsg5X/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">5</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">محمد الخفاجي</p>
+    <a href="https://www.instagram.com/reel/DOD3XYIjGL8/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">6</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">ouber</p>
+    <a href="https://www.instagram.com/reel/DVO7DDijZOO/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">7</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">زايا</p>
+    <a href="https://www.instagram.com/p/DYhoprus1Mo/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">8</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">نسق للديكور</p>
+    <a href="file:///Users/i0u8b/Desktop/index.html#" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">9</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">قوت كافي</p>
+    <a href="https://www.instagram.com/reel/DPwUq58jEcU/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+  <div class="video-card">
+    <div class="thumb" onclick="window.open(&#39;#&#39;,&#39;_blank&#39;)">
+      <div class="glow"></div>
+      <span class="num">10</span>
+      <div class="play-icon">▶</div>
+    </div>
+    <p class="vtitle">الحلم الهندسي</p>
+    <a href="https://www.instagram.com/reel/DOykIGaCGlz/" target="_blank" class="watch-btn">▶ شاهد الفيديو</a>
+  </div>
+</div>
   </div>
 </section>
 
@@ -659,9 +773,7 @@
   📸 أضف رابط إنستاغرام لكل عمل<br>
   ➕ أضف بطاقة فيديو جديدة
 </div>
-<div class="edit-bar">
-  <button class="edit-toggle" id="editBtn" onclick="toggleEdit()"><svg viewBox="0 0 24 24" style="width:14px;height:14px;fill:currentColor"><path d="M11 4H4a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.1 2.1 0 0 1 3 3L12 15l-4 1 1-4Z"></path></svg> تعديل الصفحة</button>
-</div>
+
 
 <script>
   let editMode = false;
